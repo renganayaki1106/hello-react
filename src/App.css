@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  flex-wrap: wrap; /* allow wrapping to next line */
+  gap: 10px;
+  padding: 20px;
+}
+
+.card {
+  flex: 1 1 calc(33.33% - 30px); /* roughly 3 per row */
+  max-width: 550px;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.2s;
+}

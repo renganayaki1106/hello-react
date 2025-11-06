@@ -1,0 +1,67 @@
+/* common css */
+
+.btn {
+    padding:10px 20px;
+    margin:20px 20px 0 0;
+    border:none;
+    background-color: rgb(4, 52, 98);
+    color:#fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(71, 141, 207);
+}
+
+.btn:disabled {
+    opacity: 0.5;
+}
+
+input {
+    padding:20px 10px;
+    width: 100%;
+    margin:20px 0;
+    font-size: 16px;
+    color:#131212;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline:none;
+    border:2px solid rgba(26, 9, 211, 0.905);
+}
+
+/* Counter App */
+.all-app {
+    padding:20px;
+    border:1px solid #ab2d2d;
+    margin:20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.count {
+    padding:20px 20px 10px 20px;
+    font-size: 35px;
+    color:rgba(197, 211, 9, 0.905);
+}
+
+.increment {
+    background-color: green;
+}
+
+.decrement {
+    background-color: red;
+}
+
+.undo {
+    background-color: #ab2d2d;
+}
+
+.redo {
+    background-color: #5e0cc9;
+}
