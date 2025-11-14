@@ -6,6 +6,7 @@ import DynamicColor from "../components/mini-projects/DynamicColor";
 import Timer from "../components/mini-projects/Timer";
 import Form from "../components/mini-projects/Form";
 import UseContext from "../components/mini-projects/useContext";
+import User from '../components/mini-projects/User';
 const MiniProjects = () => {
   return (
     <div>
@@ -42,6 +43,9 @@ const MiniProjects = () => {
         </div>
          <div className="card">
           <UseContext />
+        </div>
+        <div className="card">
+          <User />
         </div>
       </div>
      
