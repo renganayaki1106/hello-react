@@ -1,6 +1,6 @@
 import React,{useContext, useState} from 'react'
-import { ThemeContext } from "../../context/ThemeContext"
-import { AuthContext } from '../../context/AuthContext';
+import ThemeContext from '../../context/ThemeContext';
+import AuthContext from '../../context/AuthContext';
 
 const UseContext = () => {
 

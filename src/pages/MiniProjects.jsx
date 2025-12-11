@@ -7,6 +7,11 @@ import Timer from "../components/mini-projects/Timer";
 import Form from "../components/mini-projects/Form";
 import UseContext from "../components/mini-projects/useContext";
 import User from '../components/mini-projects/User';
+import CounterApp from '../components/mini-projects/CounterApp';
+import UseMemo from '../components/mini-projects/useMemo';
+import TodoApp from '../components/mini-projects/TodoApp';
+//import UseEffectExample from '../components/mini-projects/Child';
+//import Child from '../components/mini-projects/Child';
 const MiniProjects = () => {
   return (
     <div>
@@ -46,6 +51,15 @@ const MiniProjects = () => {
         </div>
         <div className="card">
           <User />
+        </div>
+         <div className="card">
+          <CounterApp />
+        </div>
+         <div className="card">
+          <UseMemo />
+        </div>
+        <div className="card">
+          <TodoApp />
         </div>
       </div>
      
